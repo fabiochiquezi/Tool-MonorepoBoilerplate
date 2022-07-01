@@ -1,0 +1,34 @@
+[debug] [2022-07-01T11:20:01.636Z] ----------------------------------------------------------------------
+[debug] [2022-07-01T11:20:01.638Z] Command:       /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/node /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/firebase emulators:start
+[debug] [2022-07-01T11:20:01.638Z] CLI Version:   11.1.0
+[debug] [2022-07-01T11:20:01.639Z] Platform:      linux
+[debug] [2022-07-01T11:20:01.639Z] Node Version:  v16.15.0
+[debug] [2022-07-01T11:20:01.639Z] Time:          Fri Jul 01 2022 08:20:01 GMT-0300 (Brasilia Standard Time)
+[debug] [2022-07-01T11:20:01.639Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-01T11:20:01.705Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-01T11:20:01.706Z] > authorizing via signed-in user (fabiochiquezi@gmail.com)
+[info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
+[debug] [2022-07-01T11:20:01.758Z] [hub] writing locator at /tmp/hub-toolnextjsboilerplate.json
+[debug] [2022-07-01T11:20:10.126Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-07-01T11:20:10.127Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-07-01T11:20:10.127Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-07-01T11:20:10.268Z] Web / API server started at localhost:4040
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4040\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4040                │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI        │
+├────────────────┼────────────────┼────────────────────────────┤
+│ Authentication │ localhost:9099 │ http://localhost:4040/auth │
+└────────────────┴────────────────┴────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

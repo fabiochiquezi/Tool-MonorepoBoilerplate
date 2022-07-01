@@ -1,0 +1,12 @@
+{
+    "extends": "../../../tsconfig.json",
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",
+      "rootDir": ".",
+      "outDir": "./dist",
+      "noFallthroughCasesInSwitch": true,
+    },
+    "exclude": ["node_modules"],
+    "include": ["./auth/**/**.ts", "./index.ts"]
+  }

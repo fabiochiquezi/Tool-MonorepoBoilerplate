@@ -3,10 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "workspaces": [
-    "api",
-    "web-dashboard",
-    "services/firebase-auth"
-],
+    "project-admin/api",
+    "project-admin/web-dashboard",
+    "libraries/services/firebase-auth",
+    "libraries/helpers"
+  ],
   "scripts": {
     "server-up": "yarn workspace api up",
     "server-down": "yarn workspace api down",
