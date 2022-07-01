@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Example
+    @layer components {
+        .my-custom-style {}
+    }
+*/
+
+*{ box-sizing: border-box; }
+a{ text-decoration: none; }
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}

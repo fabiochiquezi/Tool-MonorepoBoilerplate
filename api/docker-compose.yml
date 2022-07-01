@@ -1,0 +1,51 @@
+version: '3'
+services:
+    mongodb:
+        container_name: mongodb
+        image: mongo
+        restart: always
+        volumes:
+            - mongo-data:/data/db
+        ports:
+            - '27017:27017'
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=admin
+            - MONGO_INITDB_ROOT_PASSWORD=password
+        networks:
+            - tool-node-boilerplate
+    mongo-express:
+        container_name: mongo-express
+        image: mongo-express
+        ports:
+            - '8081:8081'
+        environment:
+            - ME_CONFIG_MONGODB_ADMINUSERNAME=admin
+            - ME_CONFIG_MONGODB_ADMINPASSWORD=password
+            - ME_CONFIG_MONGODB_SERVER=mongodb
+        networks:
+            - tool-node-boilerplate
+        depends_on:
+            - mongodb
+    api:
+        container_name: node-boilerplate
+        image: node:16
+        working_dir: /usr/src/app
+        restart: always
+        command: bash -c "yarn install --only=prod && yarn debug"
+        volumes:
+            - ./dist/:/usr/src/app/dist/
+            - ./package.json:/usr/src/app/package.json
+            - ./.env:/usr/src/app/.env
+        ports:
+            - '5000:5000'
+            - '9222:9222'
+        networks:
+            - tool-node-boilerplate
+        depends_on:
+            - mongodb
+networks:
+    tool-node-boilerplate:
+        driver: bridge
+volumes:
+    mongo-data:
+        driver: local

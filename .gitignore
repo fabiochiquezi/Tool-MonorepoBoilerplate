@@ -1,0 +1,4 @@
+node_modules/
+yarn.lock
+
+services/firebase-auth/node_modules

@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "baseUrl": ".",
+    "paths": {
+        "app/*": ["elements/app/*"],
+        "components/*": ["elements/components/*"],
+        "types/*": ["elements/types/*"],
+        "helpers/*": ["general/helpers/*"],
+        "config/*": ["general/config/*"],
+        "services/*": ["services/*"],
+
+        "src/*": ["src/*"],
+        "srcConfig/*": ["src/config/*"],
+        "srcComponents/*": ["src/components/*"]
+    },
+  },
+  "include": [
+      "next-env.d.ts",
+
+      "src/pages/_document.js",
+      "src/**/*.ts",
+      "src/**/*.tsx",
+
+      "elements/**/*.ts",
+      "elements/**/*.tsx",
+
+      "general/**/*.ts",
+      "general/**/*.tsx",
+
+      "services/**/*.ts"
+  ],
+  "exclude": ["node_modules", "helpers/tests/*"]
+}

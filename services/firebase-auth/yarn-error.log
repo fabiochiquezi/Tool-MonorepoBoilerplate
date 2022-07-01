@@ -1,0 +1,70 @@
+Arguments: 
+  /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/node /home/fabiochiquezi/.yarn/bin/yarn.js test
+
+PATH: 
+  /home/fabiochiquezi/.yarn/bin:/home/fabiochiquezi/.config/yarn/global/node_modules/.bin:/tmp/fnm_multishells/5092_1656647268438/bin:/home/fabiochiquezi/.fnm:/home/fabiochiquezi/.yarn/bin:/home/fabiochiquezi/.config/yarn/global/node_modules/.bin:/home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin:/tmp/fnm_multishells/4755_1656647265140/bin:/home/fabiochiquezi/.fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/fabiochiquezi/Desktop/Tool-MonorepoBoilerplate/services/firebase-auth/package.json: Unexpected token } in JSON at position 344
+      at JSON.parse (<anonymous>)
+      at /home/fabiochiquezi/.yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/fabiochiquezi/.yarn/lib/cli.js:310:30)
+      at /home/fabiochiquezi/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "firebase-auth",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      "build": "rimraf dist && tsc -p tsconfig.prod.json",
+      "test": "jest --runInBand",
+      "test:watch": "NODE_ENV=test jest --runInBand --watch",
+      "test:coverage": "NODE_ENV=test jest --coverage --runInBand",
+    },
+    "dependencies": {
+      "dotenv": "^16.0.1",
+      "firebase": "^9.8.4"
+    },
+    "devDependencies": {
+      "@types/dotenv": "^8.2.0",
+      "@types/jest": "^28.1.4",
+      "@types/node": "^18.0.0",
+      "@typescript-eslint/eslint-plugin": "^5.30.0",
+      "@typescript-eslint/parser": "^5.30.0",
+      "axios": "^0.27.2",
+      "eslint": "^8.18.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-standard": "^17.0.0",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-n": "^15.2.3",
+      "eslint-plugin-prettier": "^4.2.1",
+      "eslint-plugin-promise": "^6.0.0",
+      "jest": "^28.1.2",
+      "prettier": "^2.7.1",
+      "rimraf": "^3.0.2",
+      "ts-jest": "^28.0.5",
+      "ts-node": "^10.8.1",
+      "ts-node-dev": "^2.0.0",
+      "tsconfig-paths": "^4.0.0",
+      "typescript": "^4.7.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
