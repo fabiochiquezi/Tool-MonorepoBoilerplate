@@ -9,11 +9,16 @@
     "libraries/helpers"
   ],
   "scripts": {
-    "server-up": "yarn workspace api up",
-    "server-down": "yarn workspace api down",
-    "client-up": "yarn workspace web-dashboard up",
+    "admin-up": "concurrently \"yarn workspace api up\" \"yarn workspace web-dashboard up\"",
+    "admin-server-up": "yarn workspace api up",
+    "admin-server-down": "yarn workspace api down",
+    "admin-client-up": "yarn workspace web-dashboard up",
+
     "firebase-auth-build": "yarn workspace firebase-auth build",
-    "firebase-auth-test": "yarn workspace firebase-auth test"
+    "firebase-auth-test": "yarn workspace firebase-auth test",
+
+    "helpers-build":  "yarn workspace helpers build",
+    "helpers-test":  "yarn workspace helpers test:watch"
   },
   "license": "MIT"
 }

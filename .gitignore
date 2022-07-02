@@ -1,4 +1,14 @@
 node_modules/
 yarn.lock
 
-services/firebase-auth/node_modules
+libraries/services/firebase-auth/coverage
+libraries/services/firebase-auth/node_modules
+libraries/services/firebase-auth/yarn-error.log
+libraries/services/firebase-auth/dist
+
+libraries/helpers/coverage
+libraries/helpers/node_modules
+libraries/helpers/yarn-error.log
+libraries/helpers/dist
+
+

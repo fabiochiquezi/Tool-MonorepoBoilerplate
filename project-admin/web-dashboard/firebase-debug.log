@@ -1,20 +1,23 @@
-[debug] [2022-07-01T11:20:01.636Z] ----------------------------------------------------------------------
-[debug] [2022-07-01T11:20:01.638Z] Command:       /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/node /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/firebase emulators:start
-[debug] [2022-07-01T11:20:01.638Z] CLI Version:   11.1.0
-[debug] [2022-07-01T11:20:01.639Z] Platform:      linux
-[debug] [2022-07-01T11:20:01.639Z] Node Version:  v16.15.0
-[debug] [2022-07-01T11:20:01.639Z] Time:          Fri Jul 01 2022 08:20:01 GMT-0300 (Brasilia Standard Time)
-[debug] [2022-07-01T11:20:01.639Z] ----------------------------------------------------------------------
+[debug] [2022-07-02T01:58:26.779Z] ----------------------------------------------------------------------
+[debug] [2022-07-02T01:58:26.781Z] Command:       /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/node /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/firebase emulators:start
+[debug] [2022-07-02T01:58:26.782Z] CLI Version:   11.1.0
+[debug] [2022-07-02T01:58:26.782Z] Platform:      linux
+[debug] [2022-07-02T01:58:26.782Z] Node Version:  v16.15.0
+[debug] [2022-07-02T01:58:26.791Z] Time:          Fri Jul 01 2022 22:58:26 GMT-0300 (Brasilia Standard Time)
+[debug] [2022-07-02T01:58:26.791Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-07-01T11:20:01.705Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-07-01T11:20:01.706Z] > authorizing via signed-in user (fabiochiquezi@gmail.com)
+[debug] [2022-07-02T01:58:26.796Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-07-02T01:58:26.895Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-02T01:58:26.896Z] > authorizing via signed-in user (fabiochiquezi@gmail.com)
 [info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
-[debug] [2022-07-01T11:20:01.758Z] [hub] writing locator at /tmp/hub-toolnextjsboilerplate.json
-[debug] [2022-07-01T11:20:10.126Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2022-07-01T11:20:10.127Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2022-07-01T11:20:10.127Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[debug] [2022-07-02T01:58:26.924Z] [hub] writing locator at /tmp/hub-toolnextjsboilerplate.json
+[debug] [2022-07-02T01:58:38.073Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-07-02T01:58:38.074Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-07-02T01:58:38.075Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2022-07-01T11:20:10.268Z] Web / API server started at localhost:4040
+[debug] [2022-07-02T01:58:38.421Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-07-02T01:58:38.422Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-07-02T01:58:39.090Z] Web / API server started at localhost:4040
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4040\n"}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐

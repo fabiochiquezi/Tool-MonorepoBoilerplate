@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc -d -p tsconfig.prod.json",
+    "build:clean": "rimraf dist && tsc -p tsconfig.prod.json",
+    "build:declaration": "tsc -d -p tsconfig.prod.json",
+
+    "test": "jest --runInBand",
+    "test:watch": "jest --runInBand --watchAll",
+    "test:coverage": "jest --coverage --runInBand"
+  },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/jest": "^28.1.4",

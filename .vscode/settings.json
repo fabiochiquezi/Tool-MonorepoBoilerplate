@@ -7,6 +7,7 @@
         ".editorconfig": true,
         "tsconfig.json": true,
         ".gitignore": true,
+        ".vscode": true,
 
         "libraries/services/firebase-auth/.eslintrc.json": true,
         "libraries/services/firebase-auth/tsconfig.json": true,
@@ -17,6 +18,16 @@
         "libraries/services/firebase-auth/tsconfig.prod.json": true,
         "libraries/services/firebase-auth/dist": true,
         "libraries/services/firebase-auth/package.json": true,
+
+        "libraries/helpers/node_modules": true,
+        "libraries/helpers/coverage": true,
+        "libraries/helpers/yarn-error.log": true,
+        "libraries/helpers/dist": true,
+        "libraries/helpers/.eslintrc.json": true,
+        "libraries/helpers/jest.config.js": true,
+        "libraries/helpers/tsconfig.prod.json": true,
+        "libraries/helpers/tsconfig.json": true,
+        "libraries/helpers/package.json": true,
 
         "api/dist/": true,
         "api/node_modules/": true,
