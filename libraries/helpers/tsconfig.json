@@ -8,5 +8,10 @@
       "noFallthroughCasesInSwitch": true,
     },
     "exclude": ["node_modules"],
-    "include": ["./**/**.ts", "./index.ts"]
+    "include": [
+        "./back/**.ts",
+        "./front/**.ts",
+        "./general/**.ts",
+        "./index.ts"
+    ]
   }

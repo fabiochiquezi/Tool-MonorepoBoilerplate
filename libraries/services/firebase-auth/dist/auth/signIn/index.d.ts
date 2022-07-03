@@ -1,4 +1,4 @@
-export declare const signIn: (auth: any) => (data: {
+export declare const signIn: (auth: any) => <T>(data: {
     email: string;
     password: string;
-}) => Promise<resFirebase>;
+}) => Promise<import("helpers").responseDataT<T>>;

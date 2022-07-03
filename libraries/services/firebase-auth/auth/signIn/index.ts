@@ -12,10 +12,10 @@ const signInStandard: signInT =
             const credential = await signIn(auth, email, password)
             const user = credential.user
             const dataRes = { credential, user }
-            return res(true, 200, successsMsg.signIn, { data: dataRes })
+            return res(true, successsMsg.signIn, { data: dataRes }, 200)
         } catch (e: any) {
             const error = errMsg(e.message)
-            return res(false, 400, error, e)
+            return res(false, error, e, 400)
         }
     }
 

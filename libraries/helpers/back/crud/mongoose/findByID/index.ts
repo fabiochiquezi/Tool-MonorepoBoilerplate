@@ -14,7 +14,7 @@ export const findByIDApi: props = Domain => async id => {
         return {
             findByID: false,
             message: errDBMsgs.notFoundOrDatabaseOff,
-            doc: null
+            doc: {}
         }
     }
 }

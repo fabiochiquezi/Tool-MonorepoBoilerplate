@@ -8,10 +8,10 @@ const signUpStandard: signUpT = (res, errMsg, signUp) => auth => async data => {
     try {
         const { email, password } = data
         const newUser = await signUp(auth, email, password)
-        return res(true, 201, successMessage.signUp, { newUser })
+        return res(true, successMessage.signUp, { newUser }, 201)
     } catch (e: any) {
         const error = errMsg(e.message)
-        return res(false, 400, error, {})
+        return res(false, error, {}, 400)
     }
 }
 

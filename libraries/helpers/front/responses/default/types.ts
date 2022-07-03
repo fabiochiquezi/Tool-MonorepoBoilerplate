@@ -9,3 +9,10 @@ export type responseT = <T>(
     data: T | T[] | Object
     status: number
 }
+
+export interface responseDataT<T> {
+    ok: boolean
+    message: string
+    data: T | T[] | Object
+    status: number
+}

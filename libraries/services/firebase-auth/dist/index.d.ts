@@ -14,15 +14,15 @@ export declare const fireSettings: (firebaseConfig: firebaseConfig) => {
     emulator: (url: string) => void;
 };
 export declare const firebaseAuth: (auth: Auth) => {
-    signIn: (data: {
+    signIn: <T>(data: {
         email: string;
         password: string;
-    }) => Promise<resFirebase>;
-    signOut: () => Promise<resFirebase>;
-    signUp: (data: {
+    }) => Promise<import("helpers").responseDataT<T>>;
+    signOut: <T_1>() => Promise<import("helpers").responseDataT<T_1>>;
+    signUp: <T_2>(data: {
         email: string;
         password: string;
-    }) => Promise<resFirebase>;
+    }) => Promise<import("helpers").responseDataT<T_2>>;
     state: (fn: any) => import("@firebase/util").Unsubscribe;
 };
 export {};

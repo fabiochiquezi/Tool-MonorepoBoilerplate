@@ -10,7 +10,7 @@ export const getApi: props = async Domain => {
         return {
             get: false,
             message: errDBMsgs.err,
-            docs: null
+            docs: {}
         }
     }
 }

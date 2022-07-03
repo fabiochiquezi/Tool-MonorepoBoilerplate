@@ -1,11 +1,11 @@
-import { resFirebase, resFirebaseFnT } from '../../helpers/res/types'
 import { Auth } from 'firebase/auth'
+import { responseDataT, responseT } from 'helpers'
 
 type firebaseSignOut = (auth: Auth) => Promise<void>
 
 export type signOutT = (
-    res: resFirebaseFnT,
+    res: responseT,
     errMsg: (msg: string) => string,
     successMessage: Record<string, string>,
     signOut: firebaseSignOut
-) => (auth: Auth) => () => Promise<resFirebase>
+) => (auth: Auth) => <T>() => Promise<responseDataT<T>>

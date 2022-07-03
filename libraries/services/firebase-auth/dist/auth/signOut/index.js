@@ -17,11 +17,11 @@ const helpers_1 = require("helpers");
 const signOutStandard = (res, errMsg, successsMsg, signOut) => auth => () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         yield signOut(auth);
-        return res(true, 200, successsMsg.signOut, {});
+        return res(true, successsMsg.signOut, {}, 200);
     }
     catch (e) {
         const error = errMsg(e.message);
-        return res(false, 400, error, e);
+        return res(false, error, e, 400);
     }
 });
 exports.goOut = signOutStandard(helpers_1.response, errMessages_1.getError, successMessages_1.successMessage, auth_1.signOut);

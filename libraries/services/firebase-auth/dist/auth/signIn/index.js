@@ -20,11 +20,11 @@ const signInStandard = (res, errMsg, successsMsg, signIn) => auth => (data) => _
         const credential = yield signIn(auth, email, password);
         const user = credential.user;
         const dataRes = { credential, user };
-        return res(true, 200, successsMsg.signIn, { data: dataRes });
+        return res(true, successsMsg.signIn, { data: dataRes }, 200);
     }
     catch (e) {
         const error = errMsg(e.message);
-        return res(false, 400, error, e);
+        return res(false, error, e, 400);
     }
 });
 exports.signIn = signInStandard(helpers_1.response, errMessages_1.getError, successMessages_1.successMessage, auth_1.signInWithEmailAndPassword);

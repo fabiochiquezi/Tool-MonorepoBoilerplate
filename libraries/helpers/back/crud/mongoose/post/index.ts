@@ -8,6 +8,6 @@ export const postApi: props = Domain => async data => {
         await toDo.save()
         return { post: true, message: scssDBMsgs.post, item: toDo }
     } catch (e: any) {
-        return { post: false, message: errDBMsgs.err, item: null }
+        return { post: false, message: errDBMsgs.err, item: {} }
     }
 }

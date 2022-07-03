@@ -1,8 +1,8 @@
 import { Auth, UserCredential } from 'firebase/auth';
-import { resFirebase, resFirebaseFnT } from '../../helpers/res/types';
+import { responseDataT, responseT } from 'helpers';
 declare type firebaseSignUp = (auth: Auth, email: string, password: string) => Promise<UserCredential>;
-export declare type signUpT = (res: resFirebaseFnT, errMsg: (msg: string) => string, signUp: firebaseSignUp) => (auth: Auth) => (data: {
+export declare type signUpT = (res: responseT, errMsg: (msg: string) => string, signUp: firebaseSignUp) => (auth: Auth) => <T>(data: {
     email: string;
     password: string;
-}) => Promise<resFirebase>;
+}) => Promise<responseDataT<T>>;
 export {};

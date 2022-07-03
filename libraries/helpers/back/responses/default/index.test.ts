@@ -3,10 +3,10 @@ import { resp } from './index'
 const resMock: any = {
     status: (dataStatus: number) => ({
         json: (dataJSON: Record<any, any>) => ({
-            end: () => ({
+            end: jest.fn(() => ({
                 status: dataStatus,
                 data: dataJSON
-            })
+            }))
         })
     })
 }

@@ -4,6 +4,6 @@ export type deleteReturn = {
     delete: boolean
     message: string
 }
-export type props = (
-    Domain: Model<any>
+export type props = <T>(
+    Domain: Model<T>
 ) => (id: string) => Promise<deleteReturn>

@@ -1,5 +1,5 @@
 {
     "extends": "./tsconfig.json",
     "compilerOptions": { "sourceMap": false },
-    "exclude": ["./**/*.test.ts", "./helpers/test/**"],
+    "exclude": ["./**/*.test.ts"],
 }

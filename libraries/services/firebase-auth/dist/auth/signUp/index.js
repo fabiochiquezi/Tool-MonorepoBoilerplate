@@ -18,11 +18,11 @@ const signUpStandard = (res, errMsg, signUp) => auth => (data) => __awaiter(void
     try {
         const { email, password } = data;
         const newUser = yield signUp(auth, email, password);
-        return res(true, 201, successMessages_1.successMessage.signUp, { newUser });
+        return res(true, successMessages_1.successMessage.signUp, { newUser }, 201);
     }
     catch (e) {
         const error = errMsg(e.message);
-        return res(false, 400, error, {});
+        return res(false, error, {}, 400);
     }
 });
 exports.signUp = signUpStandard(helpers_1.response, errMessages_1.getError, auth_1.createUserWithEmailAndPassword);
