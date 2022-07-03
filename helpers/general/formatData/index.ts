@@ -58,11 +58,6 @@ const formatZipCode = (zipCode: string): string => {
 const capitalize = (value: string): string =>
     value.charAt(0).toUpperCase() + value.slice(1)
 
-const formatBRDateToUSDate = (date: string): string => {
-    const arr = date.split('/')
-    return `${arr[2]}-${arr[1]}-${arr[0]}`
-}
-
 const unformatString = (data: string): string =>
     data.replace(/[^a-zA-Z0-9]/g, '')
 
@@ -73,6 +68,5 @@ export const formatData = {
     formatFullAddress,
     formatZipCode,
     capitalize,
-    unformatString,
-    formatBRDateToUSDate
+    unformatString
 }
