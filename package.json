@@ -6,7 +6,7 @@
     "project-admin/api",
     "project-admin/web-dashboard",
     "libraries/services/firebase-auth",
-    "libraries/helpers"
+    "helpers"
   ],
   "scripts": {
     "admin-up": "concurrently \"yarn workspace api up\" \"yarn workspace web-dashboard up\"",
