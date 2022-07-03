@@ -1,6 +1,6 @@
 import { formatData } from './index'
 
-describe('helpers/formatData:', () => {
+describe('general/formatData:', () => {
     const {
         formatTelephone,
         formatcellPhone,

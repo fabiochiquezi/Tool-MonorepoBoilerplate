@@ -1,12 +1,4 @@
-import { ResponseStd } from './types'
+import { respT } from './types'
 
-export const resp: ResponseStd = (res, status = 500, ok, message, data) => {
-    return res
-        .status(status)
-        .json({
-            ok,
-            message,
-            data
-        })
-        .end()
-}
+export const resp: respT = (res, status, ok, message = '', data = {}) =>
+    res.status(status).json({ ok, message, data }).end()

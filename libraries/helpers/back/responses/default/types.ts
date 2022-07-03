@@ -1,9 +1,9 @@
 import { Response } from 'express'
 
-export type ResponseStd = (
+export type respT = <T>(
     res: Response,
     status: number,
     ok: boolean,
     message?: string,
-    data?: any
+    data?: T | T[] | Object
 ) => Response

@@ -1,12 +1,10 @@
-import { resFirebaseFnT } from './types'
+import { responseT } from './types'
 
-const response: resFirebaseFnT = (ok, status, message, data) => {
-    return {
-        ok,
-        status,
-        message,
-        data
-    }
-}
+const response: responseT = (ok, message, data = {}, status = 0) => ({
+    ok,
+    message,
+    data,
+    status
+})
 
 export { response }

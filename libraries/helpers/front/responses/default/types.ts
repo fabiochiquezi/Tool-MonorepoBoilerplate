@@ -1,13 +1,11 @@
-export type resFirebase = {
-    ok: boolean
-    status: number
-    message: string
-    data: any
-}
-
-export type resFirebaseFnT = (
+export type responseT = <T>(
     ok: boolean,
-    status: number,
     message: string,
-    data: any
-) => resFirebase
+    data?: T | T[] | Object,
+    status?: number
+) => {
+    ok: boolean
+    message: string
+    data: T | T[] | Object
+    status: number
+}

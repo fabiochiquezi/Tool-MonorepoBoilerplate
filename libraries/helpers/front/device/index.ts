@@ -1,6 +1,6 @@
-type Window = { matchMedia: any }
+type Window = { matchMedia: any; matches: any }
 
-export enum deviceEnum {
+enum deviceEnum {
     mobile = 1,
     tablet,
     desktop
@@ -22,4 +22,4 @@ const isTablet = (device: Window) => defineDevice(device) === deviceEnum.tablet
 const isDesktop = (device: Window) =>
     defineDevice(device) === deviceEnum.desktop
 
-export { defineDevice, isMobile, isTablet, isDesktop }
+export { isMobile, isTablet, isDesktop }
