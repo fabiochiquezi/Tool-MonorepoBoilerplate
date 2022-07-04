@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "workspaces": [
-    "project-admin/api",
-    "project-admin/web-dashboard",
+    "project-boilerplate/project-dash-api",
+    "project-boilerplate/project-dash-pwa",
     "libraries/services/firebase-auth",
     "libraries/configs/configs-back",
     "libraries/configs/configs-front",
@@ -14,10 +14,10 @@
     "helpers/helpers-general"
   ],
   "scripts": {
-    "admin-up": "concurrently \"yarn workspace api up\" \"yarn workspace web-dashboard up\"",
-    "admin-server-up": "yarn workspace api up",
-    "admin-server-down": "yarn workspace api down",
-    "admin-client-up": "yarn workspace web-dashboard up",
+    "admin-up": "concurrently \"yarn workspace project-dash-api up\" \"yarn workspace project-dash-pwa up\"",
+    "admin-server-up": "yarn workspace project-dash-api up",
+    "admin-server-down": "yarn workspace project-dash-api down",
+    "admin-client-up": "yarn workspace project-dash-pwa up",
 
     "firebase-auth-build": "yarn workspace firebase-auth build",
     "firebase-auth-test": "yarn workspace firebase-auth test",

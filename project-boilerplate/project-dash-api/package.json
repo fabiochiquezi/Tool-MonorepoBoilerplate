@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "project-dash-api",
   "description": "Simple project about authentication with JWT using Node + Typescript",
   "repository": {
     "url": "https://github.com/fabiochiquezi/Project-SimpleAuthJWT"

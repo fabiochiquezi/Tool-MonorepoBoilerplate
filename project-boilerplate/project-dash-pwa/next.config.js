@@ -1,5 +1,5 @@
 const withPlugins = require('next-compose-plugins')
-const withTM = require('next-transpile-modules')(['firebase-auth', 'helpers'])
+const withTM = require('next-transpile-modules')(['firebase-auth', 'helpers-front'])
 // module.exports = withTM()
 
 /** @type {import('next').NextConfig} */

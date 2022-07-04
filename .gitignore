@@ -11,4 +11,8 @@ libraries/helpers/node_modules
 libraries/helpers/yarn-error.log
 libraries/helpers/dist
 
+libraries/components/main/node_modules
+libraries/components/main/yarn.lock
+libraries/components/main/.storybook
+
 
