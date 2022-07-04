@@ -13,7 +13,7 @@ exports.goOut = void 0;
 const successMessages_1 = require("../successMessages");
 const errMessages_1 = require("../errMessages");
 const auth_1 = require("firebase/auth");
-const helpers_1 = require("helpers");
+const helpers_front_1 = require("helpers-front");
 const signOutStandard = (res, errMsg, successsMsg, signOut) => auth => () => __awaiter(void 0, void 0, void 0, function* () {
     try {
         yield signOut(auth);
@@ -24,4 +24,4 @@ const signOutStandard = (res, errMsg, successsMsg, signOut) => auth => () => __a
         return res(false, error, e, 400);
     }
 });
-exports.goOut = signOutStandard(helpers_1.response, errMessages_1.getError, successMessages_1.successMessage, auth_1.signOut);
+exports.goOut = signOutStandard(helpers_front_1.response, errMessages_1.getError, successMessages_1.successMessage, auth_1.signOut);

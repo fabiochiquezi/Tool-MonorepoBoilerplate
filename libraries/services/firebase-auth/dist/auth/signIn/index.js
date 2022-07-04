@@ -13,7 +13,7 @@ exports.signIn = void 0;
 const auth_1 = require("firebase/auth");
 const successMessages_1 = require("../successMessages");
 const errMessages_1 = require("../errMessages");
-const helpers_1 = require("helpers");
+const helpers_front_1 = require("helpers-front");
 const signInStandard = (res, errMsg, successsMsg, signIn) => auth => (data) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { email, password } = data;
@@ -27,4 +27,4 @@ const signInStandard = (res, errMsg, successsMsg, signIn) => auth => (data) => _
         return res(false, error, e, 400);
     }
 });
-exports.signIn = signInStandard(helpers_1.response, errMessages_1.getError, successMessages_1.successMessage, auth_1.signInWithEmailAndPassword);
+exports.signIn = signInStandard(helpers_front_1.response, errMessages_1.getError, successMessages_1.successMessage, auth_1.signInWithEmailAndPassword);

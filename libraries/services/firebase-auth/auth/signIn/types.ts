@@ -1,5 +1,5 @@
 import { Auth, UserCredential } from 'firebase/auth'
-import { responseDataT, responseT } from 'helpers'
+import { responseDataT, responseT } from 'helpers-front'
 
 type firebaseSignIn = (
     auth: Auth,

@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "firebase": "^9.8.4",
-    "helpers": "1.0.0"
+    "helpers-front": "1.0.0"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",

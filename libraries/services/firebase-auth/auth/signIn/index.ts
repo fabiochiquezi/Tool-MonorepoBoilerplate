@@ -1,11 +1,6 @@
-import { signInWithEmailAndPassword } from 'firebase/auth'
-import { successMessage } from '../successMessages'
-import { getError } from '../errMessages'
-import { response } from 'helpers'
-
 import { signInT } from './types'
 
-const signInStandard: signInT =
+export const signInStandard: signInT =
     (res, errMsg, successsMsg, signIn) => auth => async data => {
         try {
             const { email, password } = data
@@ -18,10 +13,3 @@ const signInStandard: signInT =
             return res(false, error, e, 400)
         }
     }
-
-export const signIn = signInStandard(
-    response,
-    getError,
-    successMessage,
-    signInWithEmailAndPassword
-)

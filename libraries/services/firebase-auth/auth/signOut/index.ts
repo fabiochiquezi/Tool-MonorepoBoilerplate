@@ -1,10 +1,6 @@
-import { successMessage } from '../successMessages'
-import { getError } from '../errMessages'
-import { signOut } from 'firebase/auth'
 import { signOutT } from './types'
-import { response } from 'helpers'
 
-const signOutStandard: signOutT =
+export const signOutStandard: signOutT =
     (res, errMsg, successsMsg, signOut) => auth => async () => {
         try {
             await signOut(auth)
@@ -14,10 +10,3 @@ const signOutStandard: signOutT =
             return res(false, error, e, 400)
         }
     }
-
-export const goOut = signOutStandard(
-    response,
-    getError,
-    successMessage,
-    signOut
-)

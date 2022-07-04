@@ -3,7 +3,15 @@
 module.exports = {
     preset: 'ts-jest',
     testEnvironment: 'node',
-    collectCoverageFrom: ['./**/*.ts'],
+    collectCoverageFrom: [
+        './**/*.ts',
+        './**/types.ts',
+        '!**/dist/**',
+        '!index.ts',
+        '!auth/authState/index.ts',
+        '!auth/successMessages.ts',
+        '!auth/errMessages.ts'
+    ],
     verbose: false,
     bail: 1,
     roots: ['.'],
