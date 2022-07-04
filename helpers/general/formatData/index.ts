@@ -40,9 +40,7 @@ const formatFullAddress = (
 ): string => {
     let formatFullAddress = ''
 
-    formatFullAddress = `${street}, ${number}${
-        complement ? ` (${complement})` : ''
-    } - ${neighborhood}, ${city} - ${state} / ${zip}`
+    formatFullAddress = `${street}, ${number} (${complement}) - ${neighborhood}, ${city} - ${state} / ${zip}`
 
     return formatFullAddress
 }

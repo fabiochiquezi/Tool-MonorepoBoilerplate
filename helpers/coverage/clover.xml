@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656833854047" clover="3.2.0">
-  <project timestamp="1656833854047" name="All files">
-    <metrics statements="107" coveredstatements="100" conditionals="16" coveredconditionals="14" methods="34" coveredmethods="32" elements="157" coveredelements="146" complexity="0" loc="107" ncloc="107" packages="12" files="13" classes="13"/>
+<coverage generated="1656924648292" clover="3.2.0">
+  <project timestamp="1656924648292" name="All files">
+    <metrics statements="107" coveredstatements="107" conditionals="14" coveredconditionals="14" methods="34" coveredmethods="34" elements="155" coveredelements="155" complexity="0" loc="107" ncloc="107" packages="12" files="13" classes="13"/>
     <package name="back.crud.mongoose">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="errDBMsgs.ts" path="/home/fabiochiquezi/Desktop/Tool-MonorepoBoilerplate/helpers/back/crud/mongoose/errDBMsgs.ts">
@@ -66,16 +66,16 @@
       </file>
     </package>
     <package name="back.crud.mongoose.post">
-      <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/fabiochiquezi/Desktop/Tool-MonorepoBoilerplate/helpers/back/crud/mongoose/post/index.ts">
-        <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
     </package>
@@ -101,14 +101,14 @@
       </file>
     </package>
     <package name="back.validations.validRequest">
-      <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="index.ts" path="/home/fabiochiquezi/Desktop/Tool-MonorepoBoilerplate/helpers/back/validations/validRequest/index.ts">
-        <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="7" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
     <package name="front.device">
@@ -143,9 +143,9 @@
       </file>
     </package>
     <package name="general.formatData">
-      <metrics statements="36" coveredstatements="36" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="7"/>
+      <metrics statements="36" coveredstatements="36" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
       <file name="index.ts" path="/home/fabiochiquezi/Desktop/Tool-MonorepoBoilerplate/helpers/general/formatData/index.ts">
-        <metrics statements="36" coveredstatements="36" conditionals="6" coveredconditionals="5" methods="7" coveredmethods="7"/>
+        <metrics statements="36" coveredstatements="36" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -171,17 +171,17 @@
         <line num="32" count="1" type="stmt"/>
         <line num="41" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="51" count="1" type="stmt"/>
-        <line num="52" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="53" count="1" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
-        <line num="58" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
         <line num="59" count="1" type="stmt"/>
-        <line num="61" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
         <line num="62" count="1" type="stmt"/>
-        <line num="64" count="1" type="stmt"/>
       </file>
     </package>
   </project>
