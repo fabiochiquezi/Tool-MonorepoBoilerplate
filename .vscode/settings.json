@@ -90,9 +90,13 @@
         "project-boilerplate/project-dash-pwa/tsconfig.jest.json": true,
         "project-boilerplate/project-dash-pwa/next.config.js": true,
         "project-boilerplate/project-dash-pwa/.eslintrc.json": true,
+        "project-boilerplate/project-dash-pwa/firebase-debug.log": true,
+        "project-boilerplate/project-dash-pwa/firebase.json": true,
+        "project-boilerplate/project-dash-pwa/ui-debug.log": true,
+        "project-boilerplate/project-dash-pwa/.firebaserc": true,
+        "project-boilerplate/project-dash-pwa/package.json": true,
 
         "web-dashboard/tsconfig.json": true,
-        "web-dashboard/package.json": true,
 
         "web-dashboard/__E2E__": true,
         "web-dashboard/.firebaserc": true,

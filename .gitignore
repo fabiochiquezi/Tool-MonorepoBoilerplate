@@ -15,4 +15,20 @@ libraries/components/main/node_modules
 libraries/components/main/yarn.lock
 libraries/components/main/.storybook
 
-
+project-boilerplate/project-dash-pwa/node_modules
+project-boilerplate/project-dash-pwa/.pnp
+project-boilerplate/project-dash-pwa/.pnp.js
+project-boilerplate/project-dash-pwa/coverage
+project-boilerplate/project-dash-pwa/.next/
+project-boilerplate/project-dash-pwa/out/
+project-boilerplate/project-dash-pwa/build
+project-boilerplate/project-dash-pwa/.DS_Store
+project-boilerplate/project-dash-pwa/*.pem
+project-boilerplate/project-dash-pwa/npm-debug.log*
+project-boilerplate/project-dash-pwa/yarn-debug.log*
+project-boilerplate/project-dash-pwa/yarn-error.log*
+project-boilerplate/project-dash-pwa/.pnpm-debug.log*
+project-boilerplate/project-dash-pwa/.env.local
+project-boilerplate/project-dash-pwa/.env.development
+project-boilerplate/project-dash-pwa/.vercel
+project-boilerplate/project-dash-pwa/*.tsbuildinfo
