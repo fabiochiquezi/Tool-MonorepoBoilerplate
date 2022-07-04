@@ -1,0 +1,7 @@
+{
+    "name": "configs-front",
+    "main": "index.ts",
+    "license": "MIT",
+    "private": true,
+    "version": "1.0.0"
+}

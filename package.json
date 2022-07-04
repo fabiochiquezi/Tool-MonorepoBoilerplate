@@ -6,7 +6,12 @@
     "project-admin/api",
     "project-admin/web-dashboard",
     "libraries/services/firebase-auth",
-    "helpers"
+    "libraries/configs/configs-back",
+    "libraries/configs/configs-front",
+    "libraries/configs/configs-general",
+    "helpers/helpers-back",
+    "helpers/helpers-front",
+    "helpers/helpers-general"
   ],
   "scripts": {
     "admin-up": "concurrently \"yarn workspace api up\" \"yarn workspace web-dashboard up\"",
@@ -17,8 +22,14 @@
     "firebase-auth-build": "yarn workspace firebase-auth build",
     "firebase-auth-test": "yarn workspace firebase-auth test",
 
-    "helpers-build":  "yarn workspace helpers build",
-    "helpers-test":  "yarn workspace helpers test:watch"
+    "helpers-back-build":  "yarn workspace helpers-back build",
+    "helpers-back-test":  "yarn workspace helpers-back test:watch",
+
+    "helpers-front-build":  "yarn workspace helpers-front build",
+    "helpers-front-test":  "yarn workspace helpers-front test:watch",
+
+    "helpers-general-build":  "yarn workspace helpers-general build",
+    "helpers-general-test":  "yarn workspace helpers-general test:watch"
   },
   "license": "MIT"
 }
