@@ -20,6 +20,19 @@
         "libraries/services/firebase-auth/dist": true,
         "libraries/services/firebase-auth/package.json": true,
 
+        /**/
+        "libraries/components/lib-main/package.json": true,
+        "libraries/components/lib-main/index.html": true,
+        "libraries/components/lib-main/tsconfig.json": true,
+        "libraries/components/lib-main/tsconfig.node.json": true,
+        "libraries/components/lib-main/.gitignore": true,
+        "libraries/components/lib-main/node_modules": true,
+        "libraries/components/lib-main/.storybook": true,
+        "libraries/components/lib-main/vite.config.ts": true,
+        "libraries/components/lib-main/yarn.lock": true,
+        "libraries/components/lib-main/src/vite-env.d.ts": true,
+        "libraries/components/lib-main/src/assets": true,
+
         // Helpers
         "helpers/helpers-back/node_modules": true,
         "helpers/helpers-back/coverage": true,
@@ -97,6 +110,8 @@
         "project-boilerplate/project-dash-pwa/package.json": true,
         "project-boilerplate/project-dash-pwa/tailwind.config.js": true,
         "project-boilerplate/project-dash-pwa/globalStyle.css": true,
+        "project-boilerplate/project-dash-pwa/pages/_document.page.js": true,
+        "project-boilerplate/project-dash-pwa/firebase-auth.ts": true,
         //"project-boilerplate/project-dash-pwa/tsconfig.json": true,
 
         "project-boilerplate/_e2e/test-e2e-boilerplate/node_modules": true,

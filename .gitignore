@@ -15,6 +15,28 @@ libraries/components/main/node_modules
 libraries/components/main/yarn.lock
 libraries/components/main/.storybook
 
+# Logs
+libraries/components/components-main/logs
+libraries/components/components-main/*.log
+libraries/components/components-main/npm-debug.log*
+libraries/components/components-main/yarn-debug.log*
+libraries/components/components-main/yarn-error.log*
+libraries/components/components-main/pnpm-debug.log*
+libraries/components/components-main/lerna-debug.log*
+libraries/components/components-main/dist
+libraries/components/components-main/dist-ssr
+libraries/components/components-main/*.local
+libraries/components/components-main/.vscode/*
+libraries/components/components-main/!.vscode/extensions.json
+libraries/components/components-main/.idea
+libraries/components/components-main/.DS_Store
+libraries/components/components-main/*.suo
+libraries/components/components-main/*.ntvs*
+libraries/components/components-main/*.njsproj
+libraries/components/components-main/*.sln
+libraries/components/components-main/*.sw?
+
+
 project-boilerplate/project-dash-pwa/node_modules
 project-boilerplate/project-dash-pwa/.pnp
 project-boilerplate/project-dash-pwa/.pnp.js

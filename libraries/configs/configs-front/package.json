@@ -3,5 +3,16 @@
     "main": "index.ts",
     "license": "MIT",
     "private": true,
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "dependencies": {
+        "react-query": "^3.39.1"
+    },
+    "devDependencies": {
+        "@types/styled-components": "^5.1.25",
+        "styled-components": "^5.3.5",
+        "tailwindcss": "^3.1.2"
+    },
+    "resolutions": {
+        "styled-components": "^5"
+    }
 }

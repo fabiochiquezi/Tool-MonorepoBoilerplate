@@ -6,10 +6,15 @@
     "project-boilerplate/project-dash-api",
     "project-boilerplate/project-dash-pwa",
     "project-boilerplate/_e2e/test-e2e-boilerplate",
+
     "libraries/services/firebase-auth",
+
+    "libraries/components/lib-main",
+
     "libraries/configs/configs-back",
     "libraries/configs/configs-front",
     "libraries/configs/configs-general",
+
     "helpers/helpers-back",
     "helpers/helpers-front",
     "helpers/helpers-general"
@@ -20,6 +25,8 @@
     "boilerplate-server-down": "yarn workspace project-dash-api down",
     "boilerplate-client-up": "yarn workspace project-dash-pwa up",
     "boilerplate-test-e2e": "yarn workspace test-e2e-boilerplate test",
+
+    "lib-main-up": "yarn workspace lib-main storybook",
 
     "firebase-auth-build": "yarn workspace firebase-auth build",
     "firebase-auth-test": "yarn workspace firebase-auth test",

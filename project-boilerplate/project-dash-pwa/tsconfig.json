@@ -16,29 +16,18 @@
         "app/*": ["elements/app/*"],
         "components/*": ["elements/components/*"],
         "types/*": ["elements/types/*"],
-        "helpers/*": ["general/helpers/*"],
-        "config/*": ["general/config/*"],
-        "services/*": ["services/*"],
-
-        "src/*": ["src/*"],
-        "srcConfig/*": ["src/config/*"],
-        "srcComponents/*": ["src/components/*"]
+        "pages/*": ["pages/*"],
     },
   },
   "include": [
       "next-env.d.ts",
-
-      "src/pages/_document.js",
-      "src/**/*.ts",
-      "src/**/*.tsx",
+      "pages/_document.js",
+      "pages/**/*.ts",
+      "pages/**/*.tsx",
+      "firebase-auth.ts",
 
       "elements/**/*.ts",
       "elements/**/*.tsx",
-
-      "general/**/*.ts",
-      "general/**/*.tsx",
-
-      "services/**/*.ts"
   ],
   "exclude": ["node_modules", "helpers/tests/*"]
 }

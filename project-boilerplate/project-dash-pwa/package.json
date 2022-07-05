@@ -44,7 +44,9 @@
     "yup-password": "^0.2.2",
     "helpers-front": "1.0.0",
     "firebase-auth": "1.0.0",
-    "configs-front": "1.0.0"
+    "configs-front": "1.0.0",
+    "configs-general": "1.0.0",
+    "lib-main": "1.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
