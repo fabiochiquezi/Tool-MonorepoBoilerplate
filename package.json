@@ -5,6 +5,7 @@
   "workspaces": [
     "project-boilerplate/project-dash-api",
     "project-boilerplate/project-dash-pwa",
+    "project-boilerplate/_e2e/test-e2e-boilerplate",
     "libraries/services/firebase-auth",
     "libraries/configs/configs-back",
     "libraries/configs/configs-front",
@@ -14,10 +15,11 @@
     "helpers/helpers-general"
   ],
   "scripts": {
-    "admin-up": "concurrently \"yarn workspace project-dash-api up\" \"yarn workspace project-dash-pwa up\"",
-    "admin-server-up": "yarn workspace project-dash-api up",
-    "admin-server-down": "yarn workspace project-dash-api down",
-    "admin-client-up": "yarn workspace project-dash-pwa up",
+    "boilerplate-up": "concurrently \"yarn workspace project-dash-api up\" \"yarn workspace project-dash-pwa up\"",
+    "boilerplate-server-up": "yarn workspace project-dash-api up",
+    "boilerplate-server-down": "yarn workspace project-dash-api down",
+    "boilerplate-client-up": "yarn workspace project-dash-pwa up",
+    "boilerplate-test-e2e": "yarn workspace test-e2e-boilerplate test",
 
     "firebase-auth-build": "yarn workspace firebase-auth build",
     "firebase-auth-test": "yarn workspace firebase-auth test",

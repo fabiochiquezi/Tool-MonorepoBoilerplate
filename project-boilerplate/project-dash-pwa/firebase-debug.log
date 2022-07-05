@@ -1,20 +1,20 @@
-[debug] [2022-07-04T21:15:18.009Z] ----------------------------------------------------------------------
-[debug] [2022-07-04T21:15:18.011Z] Command:       /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/node /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/firebase emulators:start
-[debug] [2022-07-04T21:15:18.011Z] CLI Version:   11.1.0
-[debug] [2022-07-04T21:15:18.011Z] Platform:      linux
-[debug] [2022-07-04T21:15:18.011Z] Node Version:  v16.15.0
-[debug] [2022-07-04T21:15:18.017Z] Time:          Mon Jul 04 2022 18:15:18 GMT-0300 (Brasilia Standard Time)
-[debug] [2022-07-04T21:15:18.017Z] ----------------------------------------------------------------------
+[debug] [2022-07-05T00:04:38.254Z] ----------------------------------------------------------------------
+[debug] [2022-07-05T00:04:38.257Z] Command:       /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/node /home/fabiochiquezi/.nvm/versions/node/v16.15.0/bin/firebase emulators:start
+[debug] [2022-07-05T00:04:38.257Z] CLI Version:   11.1.0
+[debug] [2022-07-05T00:04:38.257Z] Platform:      linux
+[debug] [2022-07-05T00:04:38.258Z] Node Version:  v16.15.0
+[debug] [2022-07-05T00:04:38.258Z] Time:          Mon Jul 04 2022 21:04:38 GMT-0300 (Brasilia Standard Time)
+[debug] [2022-07-05T00:04:38.258Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-07-04T21:15:18.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-07-04T21:15:18.087Z] > authorizing via signed-in user (fabiochiquezi@gmail.com)
+[debug] [2022-07-05T00:04:38.348Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-05T00:04:38.349Z] > authorizing via signed-in user (fabiochiquezi@gmail.com)
 [info] i  emulators: Starting emulators: auth {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth"}}
-[debug] [2022-07-04T21:15:18.126Z] [hub] writing locator at /tmp/hub-toolnextjsboilerplate.json
-[debug] [2022-07-04T21:15:26.417Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2022-07-04T21:15:26.418Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2022-07-04T21:15:26.418Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[debug] [2022-07-05T00:04:38.398Z] [hub] writing locator at /tmp/hub-toolnextjsboilerplate.json
+[debug] [2022-07-05T00:04:50.162Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-07-05T00:04:50.162Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-07-05T00:04:50.162Z] Starting Emulator UI with command {"binary":"node","args":["--dns-result-order=ipv4first","/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"--dns-result-order=ipv4first\",\"/home/fabiochiquezi/.cache/firebase/emulators/ui-v1.7.0/server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2022-07-04T21:15:26.629Z] Web / API server started at localhost:4040
+[debug] [2022-07-05T00:04:50.327Z] Web / API server started at localhost:4040
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4040\n"}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐

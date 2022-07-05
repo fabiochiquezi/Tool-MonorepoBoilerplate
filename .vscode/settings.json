@@ -95,15 +95,12 @@
         "project-boilerplate/project-dash-pwa/ui-debug.log": true,
         "project-boilerplate/project-dash-pwa/.firebaserc": true,
         "project-boilerplate/project-dash-pwa/package.json": true,
+        "project-boilerplate/project-dash-pwa/tailwind.config.js": true,
+        "project-boilerplate/project-dash-pwa/globalStyle.css": true,
+        //"project-boilerplate/project-dash-pwa/tsconfig.json": true,
 
-        "web-dashboard/tsconfig.json": true,
+        "project-boilerplate/_e2e/test-e2e-boilerplate/node_modules": true,
+        "project-boilerplate/_e2e/test-e2e-boilerplate/playwright.config.ts": true,
 
-        "web-dashboard/__E2E__": true,
-        "web-dashboard/.firebaserc": true,
-        "web-dashboard/playwright.config.ts": true,
-        "web-dashboard/tailwind.config.js": true,
-        "web-dashboard/firebase.json": true,
-        "web-dashboard/ui-debug.log": true,
-        "web-dashboard/firebase-debug.log": true,
     }
 }

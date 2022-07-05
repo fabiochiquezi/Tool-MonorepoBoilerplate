@@ -32,3 +32,5 @@ project-boilerplate/project-dash-pwa/.env.local
 project-boilerplate/project-dash-pwa/.env.development
 project-boilerplate/project-dash-pwa/.vercel
 project-boilerplate/project-dash-pwa/*.tsbuildinfo
+
+project-boilerplate/_e2e/test-e2e-boilerplate/node_modules
