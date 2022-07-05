@@ -29,10 +29,10 @@
         // helpers-back
         /**/
         //"helpers/helpers-back/package.json": true,
-        //"helpers/helpers-back/node_modules": true,
-        //"helpers/helpers-back/coverage": true,
-        //"helpers/helpers-back/yarn-error.log": true,
-        //"helpers/helpers-back/dist": true,
+        "helpers/helpers-back/node_modules": true,
+        "helpers/helpers-back/coverage": true,
+        "helpers/helpers-back/yarn-error.log": true,
+        "helpers/helpers-back/dist": true,
         "helpers/helpers-back/.eslintrc.json": true,
         "helpers/helpers-back/jest.config.js": true,
         "helpers/helpers-back/tsconfig.prod.json": true,
@@ -41,10 +41,10 @@
         // helpers-front
         /**/
         //"helpers/helpers-back/package.json": true,
-        //"helpers/helpers-front/node_modules": true,
-        //"helpers/helpers-front/coverage": true,
-        //"helpers/helpers-front/yarn-error.log": true,
-        //"helpers/helpers-front/dist": true,
+        "helpers/helpers-front/node_modules": true,
+        "helpers/helpers-front/coverage": true,
+        "helpers/helpers-front/yarn-error.log": true,
+        "helpers/helpers-front/dist": true,
         "helpers/helpers-front/.eslintrc.json": true,
         "helpers/helpers-front/jest.config.js": true,
         "helpers/helpers-front/tsconfig.prod.json": true,
@@ -53,10 +53,10 @@
         // helpers-general
         /**/
         //"helpers/helpers-back/package.json": true,
-        //"helpers/helpers-general/node_modules": true,
-        //"helpers/helpers-general/coverage": true,
-        //"helpers/helpers-general/yarn-error.log": true,
-        //"helpers/helpers-general/dist": true,
+        "helpers/helpers-general/node_modules": true,
+        "helpers/helpers-general/coverage": true,
+        "helpers/helpers-general/yarn-error.log": true,
+        "helpers/helpers-general/dist": true,
         "helpers/helpers-general/.eslintrc.json": true,
         "helpers/helpers-general/jest.config.js": true,
         "helpers/helpers-general/tsconfig.prod.json": true,
@@ -65,8 +65,8 @@
         // Lib-Main
         /**/
         //"libraries/components/lib-main/package.json": true,
-        //"libraries/components/lib-main/yarn.lock": true,
-        //"libraries/components/lib-main/node_modules": true,
+        "libraries/components/lib-main/yarn.lock": true,
+        "libraries/components/lib-main/node_modules": true,
         "libraries/components/lib-main/index.html": true,
         "libraries/components/lib-main/tsconfig.json": true,
         "libraries/components/lib-main/tsconfig.node.json": true,
@@ -78,48 +78,50 @@
         // Configs
         //"libraries/configs/configs-front/package.json": true,
         //"libraries/configs/configs-back/package.json": true,
-        //"libraries/configs/configs-front/node_modules": true,
-        //"libraries/configs/configs-back/node_modules": true,
+        "libraries/configs/configs-front/node_modules": true,
+        "libraries/configs/configs-back/node_modules": true,
 
         // Firebase-auth
         /**/
         //"libraries/services/firebase-auth/package.json": true,
-        //"libraries/services/firebase-auth/node_modules": true,
-        //"libraries/services/firebase-auth/coverage": true,
-        //"libraries/services/firebase-auth/yarn-error.log": true,
-        //"libraries/services/firebase-auth/dist": true,
+        "libraries/services/firebase-auth/node_modules": true,
+        "libraries/services/firebase-auth/coverage": true,
+        "libraries/services/firebase-auth/yarn-error.log": true,
+        "libraries/services/firebase-auth/dist": true,
         "libraries/services/firebase-auth/.eslintrc.json": true,
         "libraries/services/firebase-auth/tsconfig.json": true,
         "libraries/services/firebase-auth/jest.config.js": true,
         "libraries/services/firebase-auth/tsconfig.prod.json": true,
 
-        // Boilerplate-Dash-Share
+        // _e2e/test-boilerplate
         /**/
         //"project-boilerplate/_e2e/test-e2e-boilerplate/package.json": true,
-        //"project-boilerplate/_data/_e2e/test-e2e-boilerplate/node_modules": true,
+        "project-boilerplate/_data/_e2e/test-e2e-boilerplate/node_modules": true,
         "project-boilerplate/_data/_e2e/test-e2e-boilerplate/playwright.config.ts": true,
 
         // Boilerplate-Dash-API
         /**/
         //"project-boilerplate/boilerplate-dash-api/package.json": true,
-        //"project-boilerplate/boilerplate-dash-api/dist/": true,
-        //"project-boilerplate/boilerplate-dash-api/node_modules/": true,
-        //"project-boilerplate/boilerplate-dash-api/yarn.lock": true,
-        //"project-boilerplate/boilerplate-dash-api/.*": true,
+        "project-boilerplate/boilerplate-dash-api/dist/": true,
+        "project-boilerplate/boilerplate-dash-api/node_modules/": true,
+        "project-boilerplate/boilerplate-dash-api/yarn.lock": true,
+        "project-boilerplate/boilerplate-dash-api/.*": true,
         "project-boilerplate/boilerplate-dash-api/docker-compose.yml": true,
         "project-boilerplate/boilerplate-dash-api/jest.config.js": true,
+        "project-boilerplate/boilerplate-dash-api/tsconfig.json": true,
+        "project-boilerplate/boilerplate-dash-api/tsconfig.prod.json": true,
 
         // Boilerplate-Dash-PWA
         /**/
         //"project-boilerplate/boilerplate-dash-pwa/package.json": true,
-        //"project-boilerplate/boilerplate-dash-pwa/.next": true,
-        //"project-boilerplate/boilerplate-dash-pwa/coverage": true,
-        //"project-boilerplate/boilerplate-dash-pwa/node_modules": true,
-        //"project-boilerplate/boilerplate-dash-pwa/out": true,
-        //"project-boilerplate/boilerplate-dash-pwa/yarn-error.log": true,
-        //"project-boilerplate/boilerplate-dash-pwa/yarn.lock": true,
-        //"project-boilerplate/boilerplate-dash-pwa/firebase-debug.log": true,
-        //"project-boilerplate/boilerplate-dash-pwa/ui-debug.log": true,
+        "project-boilerplate/boilerplate-dash-pwa/.next": true,
+        "project-boilerplate/boilerplate-dash-pwa/coverage": true,
+        "project-boilerplate/boilerplate-dash-pwa/node_modules": true,
+        "project-boilerplate/boilerplate-dash-pwa/out": true,
+        "project-boilerplate/boilerplate-dash-pwa/yarn-error.log": true,
+        "project-boilerplate/boilerplate-dash-pwa/yarn.lock": true,
+        "project-boilerplate/boilerplate-dash-pwa/firebase-debug.log": true,
+        "project-boilerplate/boilerplate-dash-pwa/ui-debug.log": true,
         "project-boilerplate/boilerplate-dash-pwa/.babelrc": true,
         "project-boilerplate/boilerplate-dash-pwa/next-env.d.ts": true,
         "project-boilerplate/boilerplate-dash-pwa/postcss.config.js": true,

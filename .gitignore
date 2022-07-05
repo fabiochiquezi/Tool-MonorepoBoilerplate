@@ -59,31 +59,31 @@ libraries/services/firebase-auth/dist
 project-boilerplate/_data/_e2e/test-e2e-boilerplate/node_modules
 
 # dash-api
-project-boilerplate/project-dash-api/.env
-project-boilerplate/project-dash-api/node_modules/
-project-boilerplate/project-dash-api/yarn.lock
-project-boilerplate/project-dash-api/dist/
-project-boilerplate/project-dash-api/coverage/
+project-boilerplate/boilerplate-dash-api/.env
+project-boilerplate/boilerplate-dash-api/node_modules/
+project-boilerplate/boilerplate-dash-api/yarn.lock
+project-boilerplate/boilerplate-dash-api/dist/
+project-boilerplate/boilerplate-dash-api/coverage/
 
 # dash-pwa
-project-boilerplate/project-dash-pwa/node_modules
-project-boilerplate/project-dash-pwa/yarn.lock
-project-boilerplate/project-dash-pwa/.pnp
-project-boilerplate/project-dash-pwa/.pnp.js
-project-boilerplate/project-dash-pwa/coverage
-project-boilerplate/project-dash-pwa/.next/
-project-boilerplate/project-dash-pwa/out/
-project-boilerplate/project-dash-pwa/build
-project-boilerplate/project-dash-pwa/.DS_Store
-project-boilerplate/project-dash-pwa/*.pem
-project-boilerplate/project-dash-pwa/npm-debug.log*
-project-boilerplate/project-dash-pwa/yarn-debug.log*
-project-boilerplate/project-dash-pwa/yarn-error.log*
-project-boilerplate/project-dash-pwa/.pnpm-debug.log*
-project-boilerplate/project-dash-pwa/.env.local
-project-boilerplate/project-dash-pwa/.env.development
-project-boilerplate/project-dash-pwa/.vercel
-project-boilerplate/project-dash-pwa/*.tsbuildinfo
+project-boilerplate/boilerplate-dash-pwa/node_modules
+project-boilerplate/boilerplate-dash-pwa/yarn.lock
+project-boilerplate/boilerplate-dash-pwa/.pnp
+project-boilerplate/boilerplate-dash-pwa/.pnp.js
+project-boilerplate/boilerplate-dash-pwa/coverage
+project-boilerplate/boilerplate-dash-pwa/.next/
+project-boilerplate/boilerplate-dash-pwa/out/
+project-boilerplate/boilerplate-dash-pwa/build
+project-boilerplate/boilerplate-dash-pwa/.DS_Store
+project-boilerplate/boilerplate-dash-pwa/*.pem
+project-boilerplate/boilerplate-dash-pwa/npm-debug.log*
+project-boilerplate/boilerplate-dash-pwa/yarn-debug.log*
+project-boilerplate/boilerplate-dash-pwa/yarn-error.log*
+project-boilerplate/boilerplate-dash-pwa/.pnpm-debug.log*
+project-boilerplate/boilerplate-dash-pwa/.env.local
+project-boilerplate/boilerplate-dash-pwa/.env.development
+project-boilerplate/boilerplate-dash-pwa/.vercel
+project-boilerplate/boilerplate-dash-pwa/*.tsbuildinfo
 project-boilerplate/boilerplate-dash-pwa/firebase-debug.log
 project-boilerplate/boilerplate-dash-pwa/ui-debug.log
 

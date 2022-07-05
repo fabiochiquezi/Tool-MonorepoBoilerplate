@@ -6,7 +6,7 @@
     "project-boilerplate/boilerplate-dash-api",
     "project-boilerplate/boilerplate-dash-pwa",
     "project-boilerplate/boilerplate-share",
-    "project-boilerplate/_e2e/_data/test-e2e-boilerplate",
+    "project-boilerplate/_data/_e2e/test-e2e-boilerplate",
 
     "libraries/services/firebase-auth",
 
@@ -33,10 +33,8 @@
 
     "helpers-back-build":  "yarn workspace helpers-back build",
     "helpers-back-test":  "yarn workspace helpers-back test:watch",
-
     "helpers-front-build":  "yarn workspace helpers-front build",
     "helpers-front-test":  "yarn workspace helpers-front test:watch",
-
     "helpers-general-build":  "yarn workspace helpers-general build",
     "helpers-general-test":  "yarn workspace helpers-general test:watch"
   },

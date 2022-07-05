@@ -3,7 +3,7 @@ const withTM = require('next-transpile-modules')([
     'firebase-auth',
     'helpers-front',
     'configs-front',
-    'configs-general',
+    'boilerplate-share',
     'lib-main'
 ])
 
