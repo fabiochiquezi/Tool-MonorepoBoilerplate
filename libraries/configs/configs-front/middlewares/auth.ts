@@ -1,12 +1,8 @@
-import { RouteAuth, routes } from 'configs-general'
-import { User } from 'firebase/auth'
-import Router from 'next/router'
+// @ts-nocheck
 
-const authMiddlewre = (user: User | null) => {
-    console.log(user)
+const authMiddlewere = (Router, RouteAuth, routes) => user => {
     if (user) {
-        const uid = user.uid
-        console.log(user, 'user')
+        // const uid = user.uid
         return
     }
 
@@ -23,4 +19,4 @@ const authMiddlewre = (user: User | null) => {
     if (isPrivate) Router.push('/')
 }
 
-export { authMiddlewre }
+export { authMiddlewere }

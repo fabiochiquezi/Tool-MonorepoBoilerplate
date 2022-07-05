@@ -1,16 +1,17 @@
 {
     "files.exclude": {
         // Projects
-        //"helpers": true,
+        "helpers": true,
         //"libraries": true,
         //"libraries/components": true,
         //"libraries/configs": true,
-        //"libraries/configs/configs-back": true,
+        "libraries/configs/configs-back": true,
         //"libraries/configs/configs-front": true,
-        //"libraries/services": true,
+        "libraries/services": true,
+        //"libraries/services/firebase-atuh": true,
         //"project-boilerplate": true,
-        //"project-boilerplate/_data": true,
-        //"project-boilerplate/boilerplate-dash-api": true,
+        "project-boilerplate/_data": true,
+        "project-boilerplate/boilerplate-dash-api": true,
         //"project-boilerplate/boilerplate-dash-pwa": true,
         //"project-boilerplate/boilerplate-share": true,
 
@@ -79,6 +80,9 @@
         //"libraries/configs/configs-front/package.json": true,
         //"libraries/configs/configs-back/package.json": true,
         "libraries/configs/configs-front/node_modules": true,
+        "libraries/configs/configs-front/dist": true,
+        "libraries/configs/configs-front/tsconfig.json": true,
+        "libraries/configs/configs-front/tsconfig.prod.json": true,
         "libraries/configs/configs-back/node_modules": true,
 
         // Firebase-auth
@@ -110,6 +114,18 @@
         "project-boilerplate/boilerplate-dash-api/jest.config.js": true,
         "project-boilerplate/boilerplate-dash-api/tsconfig.json": true,
         "project-boilerplate/boilerplate-dash-api/tsconfig.prod.json": true,
+
+                // Boilerplate-Dash-CSR
+        /**/
+        //"project-boilerplate/boilerplate-dash-csr/package.json": true,
+        "project-boilerplate/boilerplate-dash-csr/dist/": true,
+        "project-boilerplate/boilerplate-dash-csr/node_modules/": true,
+        "project-boilerplate/boilerplate-dash-csr/index.html/": true,
+        "project-boilerplate/boilerplate-dash-csr/vite.config.ts/": true,
+        "project-boilerplate/boilerplate-dash-csr/tsconfig.node.json/": true,
+        "project-boilerplate/boilerplate-dash-csr/globalStyle.css/": true,
+        "project-boilerplate/boilerplate-dash-csr/tsconfig.json/": true,
+        "project-boilerplate/boilerplate-dash-csr/src/vite-env.d.ts": true,
 
         // Boilerplate-Dash-PWA
         /**/

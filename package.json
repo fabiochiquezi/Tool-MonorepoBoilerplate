@@ -5,6 +5,7 @@
   "workspaces": [
     "project-boilerplate/boilerplate-dash-api",
     "project-boilerplate/boilerplate-dash-pwa",
+    "project-boilerplate/boilerplate-dash-csr",
     "project-boilerplate/boilerplate-share",
     "project-boilerplate/_data/_e2e/test-e2e-boilerplate",
 

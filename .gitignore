@@ -45,6 +45,7 @@ libraries/components/lib-main/*.sw?
 
 ### configs
 libraries/configs/configs-front/node_modules
+libraries/configs/configs-front/dist
 libraries/configs/configs-back/node_modules
 
 ### services
@@ -64,6 +65,10 @@ project-boilerplate/boilerplate-dash-api/node_modules/
 project-boilerplate/boilerplate-dash-api/yarn.lock
 project-boilerplate/boilerplate-dash-api/dist/
 project-boilerplate/boilerplate-dash-api/coverage/
+
+# dash-csr
+project-boilerplate/boilerplate-dash-csr/dist
+project-boilerplate/boilerplate-dash-csr/node_modules
 
 # dash-pwa
 project-boilerplate/boilerplate-dash-pwa/node_modules

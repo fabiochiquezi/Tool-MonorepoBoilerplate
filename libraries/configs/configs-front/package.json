@@ -4,6 +4,11 @@
     "license": "MIT",
     "private": true,
     "version": "1.0.0",
+    "scripts": {
+        "build": "rimraf dist && tsc -d -p tsconfig.prod.json",
+        "build:clean": "rimraf dist && tsc -p tsconfig.prod.json",
+        "build:declaration": "tsc -d -p tsconfig.prod.json"
+    },
     "dependencies": {
         "react-query": "^3.39.1"
     },
