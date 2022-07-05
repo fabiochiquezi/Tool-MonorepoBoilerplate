@@ -1,10 +1,7 @@
 import { Button } from '@mui/material'
-import { HeaderT } from './types'
-import React, { FC } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import { FC } from 'react'
 
-const ButtonsUnlogged = () => (
+const ButtonsUnlogged = ({ Link }: any) => (
     <div>
         <Link href="/auth/sign-up">
             <a>
@@ -21,7 +18,7 @@ const ButtonsUnlogged = () => (
     </div>
 )
 
-const Header: FC<HeaderT> = ({ ButtonSignOut, logState = false }) => (
+const Header: FC<any> = ({ ButtonSignOut, logState = false, Image, Link }) => (
     <header className="mx-4">
         <div className="container flex justify-between items-center mx-auto">
             <Link href="/" className="logo">
@@ -29,7 +26,9 @@ const Header: FC<HeaderT> = ({ ButtonSignOut, logState = false }) => (
                     <Image src="/logo.png" width={90} height={90} />
                 </a>
             </Link>
-            <div>{logState ? <ButtonSignOut /> : <ButtonsUnlogged />}</div>
+            <div>
+                {logState ? <ButtonSignOut /> : <ButtonsUnlogged Link={Link} />}
+            </div>
         </div>
     </header>
 )

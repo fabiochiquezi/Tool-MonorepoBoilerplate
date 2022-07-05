@@ -55,4 +55,10 @@ project-boilerplate/project-dash-pwa/.env.development
 project-boilerplate/project-dash-pwa/.vercel
 project-boilerplate/project-dash-pwa/*.tsbuildinfo
 
+project-boilerplate/project-dash-api/.env
+project-boilerplate/project-dash-api/node_modules/
+project-boilerplate/project-dash-api/yarn.lock
+project-boilerplate/project-dash-api/dist/
+project-boilerplate/project-dash-api/coverage/
+
 project-boilerplate/_e2e/test-e2e-boilerplate/node_modules

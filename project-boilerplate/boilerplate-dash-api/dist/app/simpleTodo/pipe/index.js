@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.putPipe = exports.postPipe = exports.getPipe = exports.deletePipe = exports.getOneByIDPipe = void 0;
+var getOneByID_1 = require("./getOneByID");
+Object.defineProperty(exports, "getOneByIDPipe", { enumerable: true, get: function () { return getOneByID_1.getOneByIDPipe; } });
+var del_1 = require("./del");
+Object.defineProperty(exports, "deletePipe", { enumerable: true, get: function () { return del_1.deletePipe; } });
+var get_1 = require("./get");
+Object.defineProperty(exports, "getPipe", { enumerable: true, get: function () { return get_1.getPipe; } });
+var post_1 = require("./post");
+Object.defineProperty(exports, "postPipe", { enumerable: true, get: function () { return post_1.postPipe; } });
+var put_1 = require("./put");
+Object.defineProperty(exports, "putPipe", { enumerable: true, get: function () { return put_1.putPipe; } });

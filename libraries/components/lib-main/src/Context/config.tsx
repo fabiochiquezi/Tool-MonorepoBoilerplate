@@ -1,4 +1,4 @@
-import { snackBarStateT } from 'elements/components'
+import { snackBarStateT } from '../'
 import { createContext, Dispatch, SetStateAction, useContext } from 'react'
 
 type types = {

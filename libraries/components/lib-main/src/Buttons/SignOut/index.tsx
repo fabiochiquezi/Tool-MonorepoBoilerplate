@@ -1,16 +1,17 @@
-import { useComponents } from 'elements/components'
-// import { auth } from 'src/config/firebase-auth'
-import { ButtonSignOutT } from './types'
-import { useRouter } from 'next/router'
+import { useComponents } from '../..'
 import React from 'react'
 
-const ButtonSignOut: React.FC<ButtonSignOutT> = ({ className = '' }) => {
-    const router = useRouter()
+const ButtonSignOut: React.FC<any> = ({
+    className = '',
+    routerFn,
+    signOutFn
+}) => {
+    const router = routerFn()
     const { snackBar } = useComponents()
 
     async function signOut(e: any) {
         e.preventDefault()
-        //     const { ok, message } = await auth.signOut()
+        const { ok, message } = await signOutFn()
 
         if (ok) {
             snackBar.setSnackBar({ open: true, message, severity: 'success' })

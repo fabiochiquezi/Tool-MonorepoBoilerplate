@@ -1,13 +1,11 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
 import React from 'react'
 
 const defaultCSS = 'transition duration-150 ease-out p-4'
 const liActive = `${defaultCSS} text-blue-400 font-bold hover:text-blue-300`
 const li = `${defaultCSS} hover:text-gray-300`
 
-const Menu: React.FC = () => {
-    const path = useRouter().pathname
+const Menu: React.FC<any> = ({ router, Link }) => {
+    const path = router().pathname
     const URI = path.split('/')
     const route = URI[URI.length - 1]
     const isActive = (uri: string) => (route === uri ? liActive : li)

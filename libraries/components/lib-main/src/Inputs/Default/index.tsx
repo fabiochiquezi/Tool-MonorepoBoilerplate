@@ -1,8 +1,7 @@
 import { TextField } from '@mui/material'
-import { inputT } from 'types'
 import { FC } from 'react'
 
-const Input: FC<inputT> = ({
+const Input: FC<any> = ({
     errors,
     register,
     label,

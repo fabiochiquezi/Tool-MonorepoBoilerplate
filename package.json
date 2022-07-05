@@ -3,9 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "workspaces": [
-    "project-boilerplate/project-dash-api",
-    "project-boilerplate/project-dash-pwa",
-    "project-boilerplate/_e2e/test-e2e-boilerplate",
+    "project-boilerplate/boilerplate-dash-api",
+    "project-boilerplate/boilerplate-dash-pwa",
+    "project-boilerplate/boilerplate-share",
+    "project-boilerplate/_e2e/_data/test-e2e-boilerplate",
 
     "libraries/services/firebase-auth",
 
@@ -13,17 +14,16 @@
 
     "libraries/configs/configs-back",
     "libraries/configs/configs-front",
-    "libraries/configs/configs-general",
 
     "helpers/helpers-back",
     "helpers/helpers-front",
     "helpers/helpers-general"
   ],
   "scripts": {
-    "boilerplate-up": "concurrently \"yarn workspace project-dash-api up\" \"yarn workspace project-dash-pwa up\"",
-    "boilerplate-server-up": "yarn workspace project-dash-api up",
-    "boilerplate-server-down": "yarn workspace project-dash-api down",
-    "boilerplate-client-up": "yarn workspace project-dash-pwa up",
+    "boilerplate-up": "concurrently \"yarn workspace boilerplate-dash-api up\" \"yarn workspace boilerplate-dash-pwa up\"",
+    "boilerplate-server-up": "yarn workspace boilerplate-dash-api up",
+    "boilerplate-server-down": "yarn workspace boilerplate-dash-api down",
+    "boilerplate-client-up": "yarn workspace boilerplate-dash-pwa up",
     "boilerplate-test-e2e": "yarn workspace test-e2e-boilerplate test",
 
     "lib-main-up": "yarn workspace lib-main storybook",

@@ -1,16 +1,18 @@
 import React, { FC } from 'react'
-import Head from 'next/head'
 
+/*
 type HeadHTMLT = {
     title: string
     description: string
     favicon?: string
 }
+*/
 
-const HeadHTML: FC<HeadHTMLT> = ({
+const HeadHTML: FC<any> = ({
     title,
     description,
-    favicon = 'ico/favicon.ico'
+    favicon = 'ico/favicon.ico',
+    Head
 }) => (
     <Head>
         <title>{title}</title>
