@@ -1,7 +1,7 @@
 {
     "files.exclude": {
         // Projects
-        "helpers": true,
+        //"helpers": true,
         //"libraries": true,
         //"libraries/components": true,
         //"libraries/configs": true,
@@ -14,7 +14,7 @@
         //"project-boilerplate/boilerplate-dash-pwa": true,
         //"project-boilerplate/boilerplate-share": true,
 
-        // Base
+        // base
         /**/
         //"package.json": true,
         ".prettierrc": true,
@@ -26,19 +26,19 @@
         ".gitignore": true,
         ".vscode": true,
 
-        // Helpers-Back
+        // helpers-back
         /**/
         //"helpers/helpers-back/package.json": true,
-        "helpers/helpers-back/node_modules": true,
-        "helpers/helpers-back/coverage": true,
-        "helpers/helpers-back/yarn-error.log": true,
-        "helpers/helpers-back/dist": true,
+        //"helpers/helpers-back/node_modules": true,
+        //"helpers/helpers-back/coverage": true,
+        //"helpers/helpers-back/yarn-error.log": true,
+        //"helpers/helpers-back/dist": true,
         "helpers/helpers-back/.eslintrc.json": true,
         "helpers/helpers-back/jest.config.js": true,
         "helpers/helpers-back/tsconfig.prod.json": true,
         "helpers/helpers-back/tsconfig.json": true,
 
-        // Helpers-Front
+        // helpers-front
         /**/
         //"helpers/helpers-back/package.json": true,
         "helpers/helpers-front/node_modules": true,
@@ -50,7 +50,7 @@
         "helpers/helpers-front/tsconfig.prod.json": true,
         "helpers/helpers-front/tsconfig.json": true,
 
-        // Helpers-General
+        // helpers-general
         /**/
         //"helpers/helpers-back/package.json": true,
         "helpers/helpers-general/node_modules": true,
@@ -68,7 +68,6 @@
         "libraries/components/lib-main/index.html": true,
         "libraries/components/lib-main/tsconfig.json": true,
         "libraries/components/lib-main/tsconfig.node.json": true,
-        "libraries/components/lib-main/.gitignore": true,
         "libraries/components/lib-main/node_modules": true,
         "libraries/components/lib-main/.storybook": true,
         "libraries/components/lib-main/vite.config.ts": true,
@@ -129,7 +128,6 @@
         "project-boilerplate/boilerplate-dash-pwa/.eslintignore": true,
         "project-boilerplate/boilerplate-dash-pwa/.env.development": true,
         "project-boilerplate/boilerplate-dash-pwa/.env.example": true,
-        "project-boilerplate/boilerplate-dash-pwa/.gitignore": true,
         "project-boilerplate/boilerplate-dash-pwa/tsconfig.jest.json": true,
         "project-boilerplate/boilerplate-dash-pwa/next.config.js": true,
         "project-boilerplate/boilerplate-dash-pwa/.eslintrc.json": true,

@@ -1,43 +1,73 @@
+#Base
 node_modules/
 yarn.lock
 
+### helpers
+# helpers-back
+helpers/helpers-back/node_modules
+helpers/helpers-back/coverage
+helpers/helpers-back/yarn-error.log
+helpers/helpers-back/dist
+
+# helpers-front
+helpers/helpers-front/node_modules
+helpers/helpers-front/coverage
+helpers/helpers-front/yarn-error.log
+helpers/helpers-front/dist
+
+# helpers-general
+helpers/helpers-general/node_modules
+helpers/helpers-general/coverage
+helpers/helpers-general/yarn-error.log
+helpers/helpers-general/dist
+
+### libraries
+# lib-main
+libraries/components/lib-main/node_modules
+libraries/components/lib-main/yarn.lock
+libraries/components/lib-main/logs
+libraries/components/components-main/*.log
+libraries/components/lib-main/npm-debug.log*
+libraries/components/lib-main/yarn-debug.log*
+libraries/components/lib-main/yarn-error.log*
+libraries/components/lib-main/pnpm-debug.log*
+libraries/components/lib-main/lerna-debug.log*
+libraries/components/lib-main/dist
+libraries/components/lib-main/dist-ssr
+libraries/components/lib-main/*.local
+libraries/components/lib-main/.idea
+libraries/components/lib-main/.DS_Store
+libraries/components/lib-main/*.suo
+libraries/components/lib-main/*.ntvs*
+libraries/components/lib-main/*.njsproj
+libraries/components/lib-main/*.sln
+libraries/components/lib-main/*.sw?
+
+### configs
+libraries/configs/configs-front/node_modules
+libraries/configs/configs-back/node_modules
+
+### services
+# firebase
 libraries/services/firebase-auth/coverage
 libraries/services/firebase-auth/node_modules
 libraries/services/firebase-auth/yarn-error.log
 libraries/services/firebase-auth/dist
 
-libraries/helpers/coverage
-libraries/helpers/node_modules
-libraries/helpers/yarn-error.log
-libraries/helpers/dist
+### project-boilerplate
+#_e2e
+project-boilerplate/_data/_e2e/test-e2e-boilerplate/node_modules
 
-libraries/components/main/node_modules
-libraries/components/main/yarn.lock
-libraries/components/main/.storybook
+# dash-api
+project-boilerplate/project-dash-api/.env
+project-boilerplate/project-dash-api/node_modules/
+project-boilerplate/project-dash-api/yarn.lock
+project-boilerplate/project-dash-api/dist/
+project-boilerplate/project-dash-api/coverage/
 
-# Logs
-libraries/components/components-main/logs
-libraries/components/components-main/*.log
-libraries/components/components-main/npm-debug.log*
-libraries/components/components-main/yarn-debug.log*
-libraries/components/components-main/yarn-error.log*
-libraries/components/components-main/pnpm-debug.log*
-libraries/components/components-main/lerna-debug.log*
-libraries/components/components-main/dist
-libraries/components/components-main/dist-ssr
-libraries/components/components-main/*.local
-libraries/components/components-main/.vscode/*
-libraries/components/components-main/!.vscode/extensions.json
-libraries/components/components-main/.idea
-libraries/components/components-main/.DS_Store
-libraries/components/components-main/*.suo
-libraries/components/components-main/*.ntvs*
-libraries/components/components-main/*.njsproj
-libraries/components/components-main/*.sln
-libraries/components/components-main/*.sw?
-
-
+# dash-pwa
 project-boilerplate/project-dash-pwa/node_modules
+project-boilerplate/project-dash-pwa/yarn.lock
 project-boilerplate/project-dash-pwa/.pnp
 project-boilerplate/project-dash-pwa/.pnp.js
 project-boilerplate/project-dash-pwa/coverage
@@ -54,11 +84,8 @@ project-boilerplate/project-dash-pwa/.env.local
 project-boilerplate/project-dash-pwa/.env.development
 project-boilerplate/project-dash-pwa/.vercel
 project-boilerplate/project-dash-pwa/*.tsbuildinfo
+project-boilerplate/boilerplate-dash-pwa/firebase-debug.log
+project-boilerplate/boilerplate-dash-pwa/ui-debug.log
 
-project-boilerplate/project-dash-api/.env
-project-boilerplate/project-dash-api/node_modules/
-project-boilerplate/project-dash-api/yarn.lock
-project-boilerplate/project-dash-api/dist/
-project-boilerplate/project-dash-api/coverage/
-
-project-boilerplate/_e2e/test-e2e-boilerplate/node_modules
+# boilerplate-share
+project-boilerplate/boilerplate-share/node_modules
