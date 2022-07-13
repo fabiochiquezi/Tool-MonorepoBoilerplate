@@ -3,5 +3,10 @@
     "compilerOptions": {
         "sourceMap": false
     },
-    "exclude": ["src/**/*.test.ts", "src/helpers/test/**"],
+    "exclude": ["src/**/*.test.ts", "src/helpers/test/**", "src/**/types.ts"],
+    "references": [
+        {
+            "path": "../../libraries/configs/configs-back"
+        }
+    ]
 }

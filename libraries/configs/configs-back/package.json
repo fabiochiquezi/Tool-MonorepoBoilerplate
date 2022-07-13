@@ -1,7 +1,19 @@
 {
     "name": "configs-back",
-    "main": "index.ts",
+    "main": "dist/index.js",
     "license": "MIT",
     "private": true,
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "scripts": {
+        "build:complete": "rimraf dist && tsc -d -p tsconfig.prod.json",
+        "build": "rimraf dist && tsc --build tsconfig.json",
+        "build:declaration": "tsc -d -p tsconfig.prod.json"
+    },
+    "dependencies": {
+        "mongoose": "^6.3.4",
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13"
+    }
 }

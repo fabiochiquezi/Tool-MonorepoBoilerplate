@@ -13,11 +13,12 @@
   },
   "main": "src/app.ts",
   "scripts": {
-    "start": "node dist/app.js",
-    "build": "rimraf dist && tsc -p tsconfig.prod.json",
     "test": "jest --runInBand",
     "test:watch": "NODE_ENV=test jest --runInBand --watch",
     "test:coverage": "NODE_ENV=test jest --coverage --runInBand",
+    "start": "node dist/app.js",
+    "build": "rimraf dist && npx tsc --build tsconfig.prod.json",
+    "bundle": "ts-project-bundle",
     "dev": "NODE_ENV=dev ts-node-dev src/app.ts",
     "dev2": "NODE_ENV=dev nodemon -L --exec ts-node src/app.ts",
     "down": "docker-compose down",
@@ -26,6 +27,7 @@
     "debug": "NODE_ENV=dev nodemon -L --watch ./dist --inspect=0.0.0.0:9222 --nolazy ./dist/app.js"
   },
   "dependencies": {
+    "configs-back": "1.0.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-async-handler": "^1.2.0",

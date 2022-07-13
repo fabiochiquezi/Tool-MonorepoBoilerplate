@@ -1,7 +1,7 @@
+// @ts-nocheck
 import * as dotenv from 'dotenv'
 import makeApp from './app/index'
-import pathEnv from './configs/pathEnv'
-import { connectMongo } from './configs/database/mongo'
+import { connectMongo, pathEnv } from 'configs-back'
 
 dotenv.config({ path: pathEnv() })
 connectMongo()

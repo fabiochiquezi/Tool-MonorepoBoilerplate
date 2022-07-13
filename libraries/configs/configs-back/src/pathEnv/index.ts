@@ -17,4 +17,4 @@ const pathEnv = (): string => {
     return file
 }
 
-export default pathEnv
+export { pathEnv }

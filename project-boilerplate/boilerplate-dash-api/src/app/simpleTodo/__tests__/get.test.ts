@@ -3,7 +3,6 @@ import { scssDBMsgs } from '../../../helpers'
 
 describe('GET /simpleTodo', () => {
     const url = `${testURL}/simple-todo`
-
     let toDo1: any
     let toDo2: any
 
